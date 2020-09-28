@@ -11,6 +11,6 @@ app.use( async ( ctx ) => {
     ctx.body = 'hello world'
 })
 
-app.listen(3000, () => {
+app.listen(80, () => {
     console.log('server is starting at port 3000')
 })
