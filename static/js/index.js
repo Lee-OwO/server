@@ -179,5 +179,5 @@ window.onload = (() => {
 
       requestAnimationFrame(loop)
     })()
-  }, 500)
+  }, 1000)
 })()
