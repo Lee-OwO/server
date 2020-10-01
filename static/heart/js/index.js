@@ -124,7 +124,7 @@ window.onload = (() => {
     c2.width = c3.width = window.innerWidth
     c2.height = c3.height = window.innerHeight
     ctx1.fillStyle = '#fff'
-    let text = '宝贝节日快乐呀'
+    let text = '向阳节日快乐呀'
     let textWidth = 99999999
 
     while (textWidth > window.innerWidth) {
