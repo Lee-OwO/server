@@ -72,7 +72,7 @@ class Rocket {
     this.x = quarterW + Math.random() * (c2.width - quarterW);
     this.y = c2.height - 15;
     this.angle = Math.random() * Math.PI / 4 - Math.PI / 6;
-    this.blastSpeed = 6 + Math.random() * 7;
+    this.blastSpeed = 10 + Math.random() * 7;
     this.shardCount = 15 + Math.floor(Math.random() * 15);
     this.xSpeed = Math.sin(this.angle) * this.blastSpeed;
     this.ySpeed = -Math.cos(this.angle) * this.blastSpeed;
