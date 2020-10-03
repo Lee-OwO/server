@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Lee-OwO/server#readme",
   "dependencies": {
     "koa": "^2.13.0",
+    "koa-sslify": "^4.0.3",
     "koa-static": "^5.0.0"
   }
 }
