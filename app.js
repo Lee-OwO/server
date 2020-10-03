@@ -1,7 +1,7 @@
 const Koa = require('koa')
 const path = require('path')
 const static = require('koa-static')
-const sslify = require('koa-ssligy')
+const sslify = require('koa-sslify')
 const fs = require('fs')
 const app = new Koa()
 
